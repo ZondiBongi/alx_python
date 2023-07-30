@@ -1,7 +1,4 @@
 def reverse_string(string):
-    string = "".join(reversed(string))
-    return string
+    return string [::-1]
 
-s= "hello"
-
-print(reverse_string(s))
+print(reverse_string)
